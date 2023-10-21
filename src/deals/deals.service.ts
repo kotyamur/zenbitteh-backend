@@ -11,6 +11,7 @@ export class DealsService {
   ) {}
 
   async findAll() {
-    return await this.dealRepository.find();
+    const deals = await this.dealRepository.find();
+    return deals;
   }
 }
