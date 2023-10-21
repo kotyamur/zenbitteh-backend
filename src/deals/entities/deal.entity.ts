@@ -22,4 +22,7 @@ export class Deal {
 
   @Column()
   sold: number;
+
+  @Column()
+  image: string;
 }
